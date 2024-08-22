@@ -1,2 +1,6 @@
-# Deep-Learning-2024
- Repo for Deep learning course 2024
+# USTH ICT 2024 Introduction to Deep Learning
+
+## Student Info
+
+- Student Name: Nguyễn Đàm Quân
+- Student ID: 22BI13371
