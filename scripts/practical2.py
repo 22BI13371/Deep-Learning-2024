@@ -15,14 +15,14 @@ def gradientdDescent(x, error = 0.01, learningRate = 0.01, iterations = 100):
   for i in range(0, iterations):
     x = x - learningRate * (2*x)
     xArray.append(x)
-    if math.pow(x - i, 2) < error:
-      plt.plot(xArray)
-      plt.show()  
-      return x
     
-  
-  
+    if math.pow(x, 2) < error:
+      break
+    
+  plt.plot(xArray)
+  plt.show()  
   return x
 
-print(gradientdDescent(100, error=0.01,  iterations=5000 ) )
+
+print(gradientdDescent(-2, error=0.001,  iterations=5000 ))
   
