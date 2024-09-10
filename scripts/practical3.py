@@ -18,8 +18,8 @@ logreg = LogisticRegression(penalty='l2', tol=1e-8, solver='lbfgs', max_iter=500
 results = logreg.fit(X=X_train, y=Y_train)
 
 # print(results.coef_)
-print(pd.DataFrame({"Feature":X_train.columns.tolist(),"Coefficients":results.coef_[0]}))
-print(results.intercept_)
+# print(pd.DataFrame({"Feature":X_train.columns.tolist(),"Coefficients":results.coef_[0]}))
+# print(results.intercept_)
 
 # Retrieve the model parameters.
 b = results.intercept_[0]
